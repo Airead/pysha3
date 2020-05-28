@@ -30,7 +30,7 @@
 #endif
 #endif
 
-static PyObject*
+PyObject*
 _Py_strhex(const char* argbuf, const Py_ssize_t arglen)
 {
     static const char *hexdigits = "0123456789abcdef";
